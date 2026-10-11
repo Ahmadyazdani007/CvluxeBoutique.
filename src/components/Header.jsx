@@ -68,7 +68,7 @@ export const Header = () => {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="hidden sm:flex items-center space-x-2 text-[#DFBA73]">
             <Sparkles className="w-3.5 h-3.5" />
-            <span className="tracking-widest uppercase font-medium text-[11px]">Boutique Experience</span>
+            <span className="tracking-widest font-semibold text-[11px] text-[#EFE2B3]">cvluxeboutique</span>
           </div>
 
           <div className="mx-auto sm:mx-0 text-center flex items-center justify-center space-x-2">

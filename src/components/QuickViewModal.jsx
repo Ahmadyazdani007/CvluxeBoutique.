@@ -75,6 +75,10 @@ export const QuickViewModal = () => {
                   src={quickViewProduct.images[activeImageIndex] || quickViewProduct.images[0]}
                   alt={quickViewProduct.name}
                   className="w-full h-full object-cover object-center transition-all duration-500"
+                  onError={(e) => {
+                    e.currentTarget.onerror = null;
+                    e.currentTarget.src = "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=85";
+                  }}
                 />
 
                 {/* Badges */}
